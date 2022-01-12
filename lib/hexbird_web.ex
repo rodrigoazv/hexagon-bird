@@ -17,6 +17,29 @@ defmodule HexbirdWeb do
   and import those modules here.
   """
 
+  def domain_model do
+    quote do
+      @self __MODULE__
+      use Ecto.Schema
+    end
+  end
+
+  def domain_service do
+    quote do
+    end
+  end
+
+  def application_service do
+    quote do
+    end
+  end
+
+  def repository do
+    quote do
+    end
+  end
+
+
   def controller do
     quote do
       use Phoenix.Controller, namespace: HexbirdWeb
