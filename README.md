@@ -4,7 +4,7 @@ A simple project to implement some concepts about hexagonal architecture, domain
 
 # Architecture
 
-![Hexagonal architecture with domain design!](hex.jpeg)
+![Hexagonal architecture with domain design!](https://i.imgur.com/KWAj1GH.jpeg)
 
 # Domain 
 
